@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Opdracht 3.2</title>
+  </head>
+  <form>
+    <nav>
+      <img src="img/TUI-Logo.jpg" id="logo" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <h1>opdracht 3.2</h1>
+   
+    
+      <label for="email">E-mailadres:</label><br>
+      <input type="email" id="email" placeholder="1234@hotmail.com" name="email" required><br>
+      
+      
+        <label for="pwd">Wachtwoord:</label><br>
+        <input type="password" id="pwd" placeholder="********" name="pwd" required><br>
+
+        <label for="fname">Voornaam:</label><br>
+  <input type="text" id="fname" placeholder="U naam" pattern="[A-Za-z]" name="fname" required><br>
+  <label for="lname">Achternaam:</label><br>
+  <input type="text" id="lname" placeholder="U achternaam" name="lname" required><br>
+     <br>
+  <label for="Gender">Geslacht:</label>
+
+  <select name="Gender" id="Gender">
+    <option value="Man">Man</option>
+    <option value="Vrouw">Vrouw</option>
+    <option value="Overige">Overige</option>
+  </select><br>
+       <br>
+
+       <label for="bdaymonth">GeboorteDatum (maand, Jaar):</label>
+       <input type="month" id="bdaymonth" name="bdaymonth">
+
+<br>
+<br>
+        <label for="straathn">Straatnaam en Huisnummer</label><br>
+        <input type="text" id="straathn" name="straathn" required><br>
+
+        <label for="postcd">Postcode</label><br>
+        <input for="text" id="postcd" name="postcd" minlength="4" maxlength="4" required><br>
+
+        <label for="land">Land</label><br>
+        <input for="text" id="Land" name="Land" required><br>
+
+        <label for="Stad">Stad</label><br>
+        <input for="text" id="Stad" name="Stad" required><br>
+       <br>
+
+       <label for="BSN">BSN-nummer</label><br>
+       <input for="text" id="BSN" placeholder="123456789" name="BSN" minlength="9" maxlength="9" required><br>
+       <br>
+      <label for="Vakantieland">Vakantieland</label>
+
+      <select name="Vakantieland" id="Vak">
+        <option value="Belgie">Belgie</option>
+        <option value="Franrkijk">Frankrijk</option>
+        <option value="Spanje">Spanje</option>
+        <option value="Marokko">Marokko</option>
+        <option value="Dubai">Dubai</option>
+ </select>
+ <br>
+<br>
+ <label for="datemin">Datum van vertrek:</label>
+  <input type="date" id="datemin" name="datemin" min="2022-09-14"><br><br>
+  <label for="datemax">Datum van terugkomst:</label>
+  <input type="date" id="datemax" name="datemax" min="2022-09-14" max="2050-12-31">
+  <br>
+<br>
+
+<label for="Reisgenoten">Aantal reisgenoten</label>
+<br>
+  <input type="radio" id="1" name="reisgenoten" value="1 reisgenoot">
+  <label for="1">1 reisgenoot</label><br>
+  <input type="radio" id="2" name="reisgenoten" value="2 reisgenoten">
+  <label for="2">2 reisgenoten</label><br>
+  <input type="radio" id="3" name="reisgenoten" value="3 reisgenoten">
+  <label for="3">3 reisgenoten</label><br>
+  <input type="radio" id="4" name="reisgenoten" value="4 reisgenoten">
+  <label for="4">4 reisgenoten</label><br>
+  <br>
+<br>
+<p>Controleer u bovenstaande gegevens</p>
+
+<input type="button" onclick="alert" value="Boek Nu">
+       
+
+      
+
+        
+
+
+
+
+
+   </form>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+   
+  </body>
+</html>
